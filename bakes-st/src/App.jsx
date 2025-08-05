@@ -23,7 +23,7 @@ function App() {
   
   return (
     
-    <BrowserRouter>
+    <BrowserRouter basename="/E-Commerce-Website-Baking-WebApplication-/">
     
       <Routes>
       <Route path='/' element={<Home />} />
